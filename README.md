@@ -6,4 +6,4 @@
   <input type="submit"/>
 </form>
 
-<iframe document.csrf_form.submit(); /iframe>
+<script> document.csrf_form.submit(); </script>
